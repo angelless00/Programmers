@@ -9,6 +9,7 @@ def solution(r1, r2):
     #         elif x**2+y**2>r2**2:
     #             break
     # answer=cnt*4
+    # return answer
     import math 
     for x in range(1,r1+1):
         y2=math.floor((r2**2 - x**2)**(1/2))
