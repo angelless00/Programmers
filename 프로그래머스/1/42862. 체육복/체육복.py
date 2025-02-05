@@ -8,9 +8,9 @@ def solution(n, lost, reserve):
         reserve.remove(d)
         lost.remove(d)
             
-    reserve1=sorted(reserve).copy()
-    reserve2=sorted(reserve).copy()
-    lost=sorted(lost).copy()       
+    reserve1=sorted(reserve)
+    reserve2=sorted(reserve)
+    lost=sorted(lost)      
 
     for lost_num in lost:
         if lost_num-1 in reserve1:
